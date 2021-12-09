@@ -15,6 +15,9 @@
   </div>
   <div class="footer">
     <router-link to="/admin">Admin</router-link>
+    <br>
+    <br>
+    <a href="https://github.com/BYUCS260/museum-Jarmanation.git">GitHub</a>
   </div>
 </div>
 </template>
@@ -53,12 +56,12 @@ body {
   min-height: 500px;
 }
 
-/* Footer */
 .footer {
-  height: 50px;
-  padding: 20px 100px 0px 100px;
+  height: 60px;
+  padding: 30px 100px 0px 100px;
   background: #e3e3e3;
-  font-size: 12px;
+  font-size: 15px;
+  text-align: center;
 }
 
 .footer a {
